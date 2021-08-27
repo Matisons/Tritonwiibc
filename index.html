@@ -26,10 +26,14 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-                <a-box position='0 0 0' material='opacity: 0.5;' color="#FFDC00"></a-box>
-                <a-box position='1 0 0' material='opacity: 0.5;' color="#FF0000"></a-box>
-                <a-box position='0 1 0' material='opacity: 0.5;' color="#46FF00"></a-box>
-                <a-box class="clickable" position='0 0 1' material='opacity: 0.5;' color="#0017FF" gesture-handler></a-box>
+                
+                <a-box 
+                       class="clickable" 
+                       position='0 0 1' 
+                       material='side:single; src:"assets/asset.png"' 
+                       color="#0017FF" 
+                       gesture-handler
+                  ></a-box>
             </a-marker>
 
             <a-entity camera></a-entity>
