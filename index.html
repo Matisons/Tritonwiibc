@@ -15,7 +15,9 @@
             id="scene"
             embedded
             gesture-detector
-        >
+        ><a-assets>
+  <a-asset-item id="fish" src="assets/Fish.glb"></a-asset-item>
+</a-assets>
             <a-marker
                 id="animated-marker"
                 type="pattern"
@@ -27,7 +29,7 @@
                 id="markerA"
             >
                 <a-entity
-                    glb-model="assets/Fish.glb"
+                    glb-model="fish"
                     position="0 0 0"
                     scale="1 1 1"
                     class="clickable"
